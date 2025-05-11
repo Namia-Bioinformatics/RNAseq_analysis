@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # change working directory
 cd /Users/kr/Desktop/demo/RNASeq_pipeline/
 
