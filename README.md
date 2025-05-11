@@ -7,7 +7,7 @@ This project contains a complete RNA-Seq analysis pipeline including:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 RNASeq_pipeline/
@@ -20,7 +20,7 @@ RNASeq_pipeline/
 
 ---
 
-## 🔬 Preprocessing
+## Preprocessing
 
 Preprocessing refers to steps that clean raw sequencing data (FASTQ) before alignment.
 
@@ -39,14 +39,14 @@ Preprocessing refers to steps that clean raw sequencing data (FASTQ) before alig
 
 ---
 
-## 🧬 Processing / Core Alignment Stage
+## Processing / Core Alignment Stage
 
 ### 1. [HISAT2](https://daehwankimlab.github.io/hisat2/download/)
 - **Purpose**: Align trimmed reads to a reference genome
 - **Input**: Cleaned FASTQ files
 - **Output**: Aligned BAM file
 
-> 📥 Reference Genome (UCSC hg38):  
+> Reference Genome (UCSC hg38):  
 > https://genome-idx.s3.amazonaws.com/hisat/hg38_genome.tar.gz
 
 ### Tool Summary
@@ -58,7 +58,7 @@ Preprocessing refers to steps that clean raw sequencing data (FASTQ) before alig
 
 ---
 
-## 📊 Quantification / Expression Analysis
+## Quantification / Expression Analysis
 
 ### 2. [featureCounts](https://subread.sourceforge.net/featureCounts.html)
 - **Purpose**: Count reads per gene using GTF
@@ -70,7 +70,7 @@ Preprocessing refers to steps that clean raw sequencing data (FASTQ) before alig
 
 ---
 
-## 🔎 Optional Downstream Steps
+## Optional Downstream Steps
 
 | Stage                       | Tool/Approach           |
 |----------------------------|-------------------------|
@@ -81,7 +81,7 @@ Preprocessing refers to steps that clean raw sequencing data (FASTQ) before alig
 
 ---
 
-## ⚙️ Instructions
+## Instructions
 
 1. Update file paths in `scripts/RNAseq_pipeline.sh` to match your setup.
 2. Run the script inside a Linux/WSL terminal with tools installed.
@@ -98,7 +98,7 @@ Preprocessing refers to steps that clean raw sequencing data (FASTQ) before alig
 
 ---
 
-## 👩‍🔬 Author
+## Author
 
 **Namia Takreem**  
 MSc Bioinformatics – Jamia Millia Islamia
